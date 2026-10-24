@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="LocationData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/data/location_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "sunken_grove"
+display_name = "Sunken Grove"
+terrains = PackedStringArray("marsh")
+biomes = PackedStringArray("wetlands")
+density = 1.5
+spacing = 4
+color = Color(0.4, 0.8, 0.7, 1)

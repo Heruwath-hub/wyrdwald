@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="AttackData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/data/attack_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "hex_totem"
+display_name = "Hex Totem"
+description = "Set a totem on the enemy side. Cards in the cells next to it deal 20% less for 3 rounds."
+power = 0
+initiative = 5
+reach = 2
+entity = 3
+lane_reach = 3

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="AttackData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/data/attack_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "entangle"
+display_name = "Entangle"
+description = "Roots grip an entire enemy lane and delay it."
+pattern = 1
+target_side = 0
+power = 4
+initiative = 4
+delay = 3
+lane_reach = 3

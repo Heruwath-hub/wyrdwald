@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ResourceNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/data/resource_node_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "fish"
+display_name = "Fish"
+category = "food"
+tier = 1
+terrains = PackedStringArray("river", "lake", "ocean")
+biomes = PackedStringArray()
+density = 1.0
+needs_adjacent_terrain = ""
+color = Color(0.45, 0.75, 0.95, 1)

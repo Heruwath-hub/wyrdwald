@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="AttackData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/data/attack_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "ricochet"
+display_name = "Ricochet"
+description = "A bouncing shot that finds a column and delays the targets."
+pattern = 3
+target_side = 0
+power = 4
+initiative = 6
+delay = 2

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="TerrainData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/data/terrain_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "grass"
+display_name = "Grass"
+ap_cost = 1
+passable = true
+color = Color(0.36, 0.45, 0.25, 1)
+height = 0.25
+battle_ground = "grass"

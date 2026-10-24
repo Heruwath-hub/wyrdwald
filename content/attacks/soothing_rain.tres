@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AttackData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/data/attack_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "soothing_rain"
+display_name = "Soothing Rain"
+description = "Restores health across one allied lane."
+pattern = 1
+target_side = 1
+power = 3
+initiative = 4

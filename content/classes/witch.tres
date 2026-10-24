@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="ClassData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/data/class_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "witch"
+display_name = "Witch"
+main_attribute = 2
+secondary_attribute = 2
+excelling_race_id = "rusalka"
+legendary_title = "Vedma"
+attack_ids = PackedStringArray("hex_bolt", "chain_lightning", "ruin", "hex_totem", "raven")

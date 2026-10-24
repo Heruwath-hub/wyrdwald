@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="BiomeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/data/biome_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "highlands"
+display_name = "Highlands"
+tier = 2
+danger_floor = 4
+danger_cap = 8
+region_share = 0.172
+terrain_weights = {
+"hills": 38,
+"mountain": 11,
+"grass": 27,
+"forest": 12,
+"river": 8,
+"lake": 2
+}
+settlements_per_race = 2
+start_allowed = true
+elevation_bias = 1.0
+color = Color(0.62, 0.5, 0.4, 1)
+plain_terrain = "grass"
+food_per_100 = 4.5
+material_per_100 = 5.5
+signature_per_100 = 3.0

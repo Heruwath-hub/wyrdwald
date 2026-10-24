@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AttackData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/data/attack_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "quick_stab"
+display_name = "Quick Stab"
+description = "Faster than anything else on the board."
+pattern = 0
+target_side = 0
+power = 5
+initiative = 10

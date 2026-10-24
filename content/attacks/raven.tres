@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="AttackData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/data/attack_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "raven"
+display_name = "Raven"
+description = "Call a familiar to your side. It strikes the nearest enemy for 4 every Upkeep and vanishes with the Witch."
+power = 0
+initiative = 5
+aim_side = 1
+reach = 2
+entity = 5

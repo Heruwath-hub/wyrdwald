@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="AttackData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/data/attack_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "shield_bash"
+display_name = "Shield Bash"
+description = "Fast. Delays the target's remaining cards."
+pattern = 0
+target_side = 0
+power = 5
+initiative = 9
+delay = 4

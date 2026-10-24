@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="AttackData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/data/attack_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "quake"
+display_name = "Quake"
+description = "The ground splits under one enemy lane. Delays the targets."
+pattern = 1
+target_side = 0
+power = 4
+initiative = 3
+delay = 2

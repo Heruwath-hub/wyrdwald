@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="AttackData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/data/attack_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "stomp"
+display_name = "Stomp"
+description = "Stamp a Spike Pit flat."
+power = 0
+initiative = 7
+aim_side = 2
+reach = 2
+clears = PackedInt32Array(6)

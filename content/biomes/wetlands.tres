@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="BiomeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/data/biome_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "wetlands"
+display_name = "Wetlands"
+tier = 2
+danger_floor = 5
+danger_cap = 8
+region_share = 0.172
+terrain_weights = {
+"marsh": 48,
+"grass": 14,
+"lake": 12,
+"river": 10,
+"forest": 10,
+"hills": 4,
+"mountain": 2
+}
+settlements_per_race = 2
+start_allowed = true
+elevation_bias = -1.0
+color = Color(0.4, 0.52, 0.46, 1)
+plain_terrain = "marsh"
+food_per_100 = 4.5
+material_per_100 = 5.5
+signature_per_100 = 3.0

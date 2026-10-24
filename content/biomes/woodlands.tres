@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="BiomeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/data/biome_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "woodlands"
+display_name = "Woodlands"
+tier = 2
+danger_floor = 4
+danger_cap = 7
+region_share = 0.172
+terrain_weights = {
+"forest": 60,
+"grass": 17,
+"hills": 8,
+"river": 7,
+"lake": 3,
+"marsh": 2,
+"mountain": 3
+}
+settlements_per_race = 2
+start_allowed = true
+elevation_bias = 0.0
+color = Color(0.13, 0.45, 0.22, 1)
+plain_terrain = "grass"
+food_per_100 = 4.5
+material_per_100 = 5.5
+signature_per_100 = 3.0

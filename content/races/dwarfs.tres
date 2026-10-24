@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="RaceData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/data/race_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "dwarfs"
+display_name = "Dwarfs"
+native_biome = "Highlands"
+playable = true
+might_weight = 7
+finesse_weight = 3
+insight_weight = 6

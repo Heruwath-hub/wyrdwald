@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="TerrainData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/data/terrain_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "river"
+display_name = "River"
+ap_cost = 2
+passable = true
+color = Color(0.28, 0.55, 0.92, 1)
+height = 0.15
+battle_ground = "water"

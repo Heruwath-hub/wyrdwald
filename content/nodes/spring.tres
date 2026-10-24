@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ResourceNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/data/resource_node_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "spring"
+display_name = "Spring"
+category = "water"
+tier = 0
+terrains = PackedStringArray("river")
+biomes = PackedStringArray()
+density = 0.0
+needs_adjacent_terrain = ""
+color = Color(0.3, 0.8, 1, 1)

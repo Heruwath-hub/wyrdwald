@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="ClassData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/data/class_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "smith"
+display_name = "Smith"
+main_attribute = 0
+secondary_attribute = 2
+excelling_race_id = "dwarfs"
+legendary_title = "Runeborn"
+attack_ids = PackedStringArray("hammer_blow", "quake", "iron_ward", "rune_strike", "war_totem", "ember_throw")

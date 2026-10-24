@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ResourceNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/data/resource_node_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "whisperskull"
+display_name = "Whisperskull"
+category = "material"
+tier = 2
+terrains = PackedStringArray("marsh")
+biomes = PackedStringArray("wetlands")
+density = 3.0
+needs_adjacent_terrain = ""
+color = Color(0.85, 0.85, 0.7, 1)

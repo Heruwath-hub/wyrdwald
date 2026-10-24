@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="AttackData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/data/attack_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "war_totem"
+display_name = "War Totem"
+description = "Set a totem on your side. Cards in the cells next to it deal 20% more for 3 rounds."
+power = 0
+initiative = 5
+aim_side = 1
+reach = 2
+entity = 2

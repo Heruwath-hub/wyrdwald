@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="BiomeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/data/biome_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "wyrdwood"
+display_name = "Wyrdwood"
+tier = 3
+danger_floor = 7
+danger_cap = 10
+region_share = 0.144
+terrain_weights = {
+"wyrd_forest": 84,
+"hills": 6,
+"river": 4,
+"lake": 3,
+"mountain": 3
+}
+settlements_per_race = 0
+start_allowed = false
+elevation_bias = 0.0
+color = Color(0.5, 0.25, 0.65, 1)
+plain_terrain = ""
+food_per_100 = 4.5
+material_per_100 = 5.5
+signature_per_100 = 3.0

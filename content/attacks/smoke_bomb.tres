@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="AttackData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/data/attack_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "smoke_bomb"
+display_name = "Smoke Bomb"
+description = "Smoke over the whole enemy side. Delays everyone it touches."
+pattern = 4
+target_side = 0
+power = 2
+initiative = 3
+delay = 3

@@ -1,0 +1,16 @@
+# Godot
+.godot/
+*.translation
+export_presets.cfg
+export_credentials.cfg
+/android/
+/build/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Design and reference documents (kept local)
+/docs/

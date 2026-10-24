@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AttackData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/data/attack_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "night_terror"
+display_name = "Night Terror"
+description = "Dread washes over the whole enemy side. Very slow."
+pattern = 4
+target_side = 0
+power = 3
+initiative = 2

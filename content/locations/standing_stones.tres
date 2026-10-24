@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="LocationData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/data/location_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "standing_stones"
+display_name = "Standing Stones"
+terrains = PackedStringArray("grass", "hills")
+biomes = PackedStringArray("plainlands", "woodlands", "highlands")
+density = 0.8
+spacing = 4
+color = Color(0.7, 0.75, 0.85, 1)

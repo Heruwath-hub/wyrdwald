@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="AttackData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/data/attack_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "rain"
+display_name = "Rain"
+description = "Water a cross of cells: puts out fire, washes away oil and douses a Flame Trap."
+power = 0
+initiative = 6
+aim_side = 2
+shape = 1
+reach = 3
+ground = 4
+lane_reach = 3

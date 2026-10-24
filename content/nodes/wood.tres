@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ResourceNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/data/resource_node_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "wood"
+display_name = "Wood"
+category = "material"
+tier = 1
+terrains = PackedStringArray("forest", "wyrd_forest")
+biomes = PackedStringArray("plainlands", "woodlands", "highlands", "wetlands", "wyrdwood")
+density = 5.0
+needs_adjacent_terrain = ""
+color = Color(0.5, 0.33, 0.18, 1)

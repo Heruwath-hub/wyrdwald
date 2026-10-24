@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="AttackData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/data/attack_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "flame_trap"
+display_name = "Flame Trap"
+description = "Set a bomb on an enemy cell. After 2 rounds it bursts into fire on the cell and its neighbours, unless it is cleared first."
+power = 0
+initiative = 5
+reach = 2
+ground = 9
+lane_reach = 2

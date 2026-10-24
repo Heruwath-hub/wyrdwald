@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="ClassData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/data/class_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "rogue"
+display_name = "Rogue"
+main_attribute = 1
+secondary_attribute = 1
+excelling_race_id = "nix"
+legendary_title = ""
+attack_ids = PackedStringArray("quick_stab", "fan_of_knives", "poison_cloud", "tripwire", "disarm")

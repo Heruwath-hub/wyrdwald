@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="ClassData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/data/class_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "druid"
+display_name = "Druid"
+main_attribute = 2
+secondary_attribute = 1
+excelling_race_id = "leshy_folk"
+legendary_title = "Leshyar"
+attack_ids = PackedStringArray("thorn_lash", "entangle", "wild_surge", "rain", "wolf")

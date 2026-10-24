@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="AttackData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/data/attack_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "ember_throw"
+display_name = "Ember Throw"
+description = "Lob an ember: 3 damage and fire on the cell. Fire burns whoever stands there each Upkeep and spreads along oil. Burns away a Tripwire or Snare."
+power = 3
+initiative = 6
+reach = 3
+ground = 3
+lane_reach = 2

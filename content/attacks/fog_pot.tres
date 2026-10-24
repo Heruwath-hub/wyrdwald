@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="AttackData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/data/attack_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "fog_pot"
+display_name = "Fog Pot"
+description = "Fill a cross of cells with haze. Cards placed there next round lose 3 initiative."
+power = 0
+initiative = 6
+shape = 1
+reach = 3
+ground = 5
+lane_reach = 2

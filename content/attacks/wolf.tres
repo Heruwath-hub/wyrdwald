@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="AttackData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/data/attack_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "wolf"
+display_name = "Wolf"
+description = "Call a familiar to your side. It blocks 6 damage each round for its cell and those behind it, and draws Single attacks. Vanishes with the Druid."
+power = 0
+initiative = 5
+aim_side = 1
+reach = 2
+entity = 4

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ResourceNodeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/data/resource_node_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "tier2_food_woodlands"
+display_name = "Tier 2 Food (Woodlands)"
+category = "food"
+tier = 2
+terrains = PackedStringArray("forest", "grass")
+biomes = PackedStringArray("woodlands")
+density = 3.0
+needs_adjacent_terrain = ""
+color = Color(0.95, 0.7, 0.2, 1)

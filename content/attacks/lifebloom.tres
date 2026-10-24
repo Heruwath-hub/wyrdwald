@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AttackData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/data/attack_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "lifebloom"
+display_name = "Lifebloom"
+description = "A slow bloom that mends every ally."
+pattern = 4
+target_side = 1
+power = 2
+initiative = 2

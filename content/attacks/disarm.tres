@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="AttackData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/data/attack_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "disarm"
+display_name = "Disarm"
+description = "Take apart a Tripwire, Snare or Flame Trap."
+power = 0
+initiative = 9
+aim_side = 2
+reach = 2
+clears = PackedInt32Array(7, 8, 9)
+lane_reach = 2
