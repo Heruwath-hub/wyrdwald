@@ -5,6 +5,7 @@ export_presets.cfg
 export_credentials.cfg
 /android/
 /build/
+/builds/
 
 # OS / editor
 .DS_Store

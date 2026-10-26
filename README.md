@@ -2,7 +2,7 @@
 
 Strategy survival RPG prototype. Godot 4.3+ (GL Compatibility renderer), GDScript.
 
-Open the folder in the Godot project manager and run it. The boot scene (`scenes/main.tscn`) checks the content, then opens the main menu (`scenes/ui/main_menu.tscn`), from which the combat prototype is launched.
+Open the folder in the Godot project manager and run it. The boot scene (`scenes/main.tscn`) checks the content, then opens the main menu (`scenes/ui/main_menu.tscn`), from which the combat prototype and the world map are launched.
 
 ## Folder structure
 
@@ -101,7 +101,7 @@ Damage is the attack's `power` value with no attribute scaling yet. Hit points a
 
 ## World prototype
 
-Open `scenes/world/world_map.tscn` and run the current scene (F6). It generates a continent from a seed and lets a party walk over it.
+Pick World Map in the main menu, or open `scenes/world/world_map.tscn` and run the current scene (F6). It generates a continent from a seed and lets a party walk over it.
 
 - **Seed.** A new random world every run. Type a number or any text into the Seed box and press New World to get the same world again. The generator version is shown beside the seed; a seed only means the same world for the same version.
 - **Controls.** Right click walks the party along the cheapest route as far as today's AP allows (hover shows the route: green steps are affordable today, amber ones are not). Left click an NPC settlement to select it: its 2-ring access area is shaded and the panel lists the food, water and materials inside. Hold Shift to preview a settlement at the hovered hex (see Build sites below). Left drag turns the camera, middle drag or WASD pans, wheel zooms, Q/E rotate, Space ends the day.
